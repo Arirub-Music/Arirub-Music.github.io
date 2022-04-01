@@ -41,10 +41,12 @@ $("#btn0").click(function(){
 
 
 Swal.fire({
-	html:'<h1>Musica Random</h1> <br> <h3>Si quieres colabora en la playlist "Musica Random" envíame un DM en Twitter: <a href="https://twitter.com/ArirubMusic" target="_blank">@ArirubMusic</a></h3>',
+	html:'<h3>Si quieres colabora en la playlist "Musica Random" envíame un DM en Twitter: <a href="https://twitter.com/ArirubMusic" target="_blank">@ArirubMusic</a></h3>',
 	footer: '<a href="https://open.spotify.com/playlist/2JS8QpIeCriX0IavGhnH0E?si=3e175a783fc04ca9" target="_blank"> Musica Random ir</a>',
 	position: "top",
-	imageUrl: '',
+	imageUrl: 'https://arirub-music.github.io/img/Musica%20Random.jpg',
+	imageWidth: 200,
+	imageHeight: 200,
 	confirmButtonText: 'Despues',
 	timerProgressBar: false,
 	allowOutsideClick: false,
