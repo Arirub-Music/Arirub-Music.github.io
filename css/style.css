@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?l2pula');
-  src:  url('fonts/icomoon.eot?l2pula#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?l2pula') format('truetype'),
-    url('fonts/icomoon.woff?l2pula') format('woff'),
-    url('fonts/icomoon.svg?l2pula#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?f3mpfy');
+  src:  url('fonts/icomoon.eot?f3mpfy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?f3mpfy') format('truetype'),
+    url('fonts/icomoon.woff?f3mpfy') format('woff'),
+    url('fonts/icomoon.svg?f3mpfy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,43 +26,46 @@
 }
 
 .icon-youtubemusic .path1:before {
-  content: "\e905";
-  color: rgb(244, 67, 54);
+  content: "\e900";
+  color: rgb(255, 0, 0);
 }
 .icon-youtubemusic .path2:before {
-  content: "\e906";
+  content: "\e901";
   margin-left: -1em;
   color: rgb(255, 255, 255);
 }
 .icon-youtubemusic .path3:before {
-  content: "\e907";
+  content: "\e902";
   margin-left: -1em;
-  color: none;
+  color: rgb(255, 255, 255);
 }
-.icon-deezer:before {
-  content: "\e900";
-  color: #feaa2d;
+.icon-unnamed:before {
+  content: "\e903";
+}
+.icon-tiktok:before {
+  content: "\e90a";
 }
 .icon-instagram:before {
   content: "\e908";
   color: #e4405f;
 }
-.icon-soundcloud:before {
-  content: "\e901";
-  color: #f30;
-}
-.icon-spotify:before {
-  content: "\e902";
-  color: #1ed760;
-}
-.icon-tiktok:before {
-  content: "\e909";
-}
 .icon-twitter:before {
-  content: "\e903";
+  content: "\e909";
   color: #1da1f2;
 }
-.icon-youtube:before {
+.icon-deezer:before {
   content: "\e904";
+  color: #feaa2d;
+}
+.icon-soundcloud:before {
+  content: "\e905";
+  color: #f30;
+}
+.icon-youtube:before {
+  content: "\e906";
   color: #f00;
+}
+.icon-spotify:before {
+  content: "\e907";
+  color: #1ed760;
 }
