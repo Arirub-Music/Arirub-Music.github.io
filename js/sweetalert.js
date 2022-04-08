@@ -1,6 +1,6 @@
 $("#btn0").click(function(){
 	Swal.fire({
-		html: '<strong><h3>Arirub Music es un creador de Playlist desde el 2015. <br> Actualmente cuenta con 762 Playlist  <br> Spotify: 249 Playlist <br> SoundCloud: 194 Playlist <br> Deezer: 188 Playlist <br> YouTube: 131 Playlist</h3>',
+		html: '<strong><h3>Arirub Music es un creador de Playlist desde el 2015. <br> Actualmente cuenta con 833 Playlist  <br> Spotify: 255 Playlist <br> SoundCloud: 196 Playlist <br> Deezer: 189 Playlist <br> YouTube: 153 Playlist <br> Claro Música: 40 Playlist</h3>',
 		position: "top",
 		timerProgressBar: false,
 		allowOutsideClick: true,
