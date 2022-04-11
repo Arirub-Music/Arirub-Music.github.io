@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?f3mpfy');
-  src:  url('fonts/icomoon.eot?f3mpfy#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?f3mpfy') format('truetype'),
-    url('fonts/icomoon.woff?f3mpfy') format('woff'),
-    url('fonts/icomoon.svg?f3mpfy#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?xceev8');
+  src:  url('fonts/icomoon.eot?xceev8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xceev8') format('truetype'),
+    url('fonts/icomoon.woff?xceev8') format('woff'),
+    url('fonts/icomoon.svg?xceev8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -68,4 +68,10 @@
 .icon-spotify:before {
   content: "\e907";
   color: #1ed760;
+}
+.icon-forward:before {
+  content: "\e969";
+}
+.icon-menu:before {
+  content: "\e9bd";
 }
