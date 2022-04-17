@@ -20,7 +20,7 @@ $("#btn0").click(function(){
 
 	  $("#btn1").click(function(){
 		Swal.fire({
-			imageUrl:'https://arirub-music.github.io/img/409-4092568_proximamente-proximamente-png.png',
+			imageUrl:'https://arirubmusic.github.io/img/409-4092568_proximamente-proximamente-png.png',
 			position: "center",
 			timer: 3000,
 			timerProgressBar: true,
@@ -44,7 +44,7 @@ Swal.fire({
 	html:'<h3>Si quieres colabora en la playlist "Musica Random" envíame un DM en Twitter: <a href="https://twitter.com/ArirubMusic" target="_blank">@ArirubMusic</a></h3>',
 	footer: '<a href="https://open.spotify.com/playlist/2JS8QpIeCriX0IavGhnH0E?si=3e175a783fc04ca9" target="_blank"> Musica Random ir</a>',
 	position: "top",
-	imageUrl: 'https://arirub-music.github.io/img/Musica%20Random.jpg',
+	imageUrl: 'https://arirubmusic.github.io/img/Musica%20Random.jpg',
 	imageWidth: 200,
 	imageHeight: 200,
 	confirmButtonText: 'Despues',
