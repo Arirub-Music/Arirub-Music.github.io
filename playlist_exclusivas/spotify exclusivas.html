@@ -1,4 +1,51 @@
-<?php require('header.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pie.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel=”canonical” href=”https://arirub-music.github.io/” />
+    <meta name="description" content="Las mejores Playlist echas por Arirub Music. Disponible en YouTube, SoundCloud, Spotify & Deezer">
+    <meta name="keywords" content="Musica, Playlist, Genero Musical, Bachata, Reggaeton, Cantantes, Music, Arirub, Listas de Reproduccion, Creador, Top, Mix, Pop, Cumbia, Mundo, World, random, JD, Kim Loaiza, cachengue, dembow, reggaeton old school, reggaeton 2021, aleteo, fiestero, dj, Arirub Music, Varios Artistas, Tendencias, Discoteca, 2022">
+    <title>Arirub Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div id="encabezado">
+            
+           <div id="logo">  
+            <img src="img/logo.png" class="img-logo" alt=""><span class="element"></span>
+           </div>
+           <div id="cadenas-texto">
+            <p>Arirub Music</p>
+          </div>
+
+           <div id="menu">
+        <ul>
+            <li><a href="/index.html" class="enlace">Inicio</a></li>
+            <li><a id="btn0" class="enlace">Acerca de Mi</a></li>
+            <li><a id="btn1" class="enlace">Categorias</a></li>
+
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu"></label>
+            </div>
+
+            <li class="modo">
+                <button class="switch" id="switch">
+                    <span class="mod"><i class="fa-solid fa-sun"></i></span>
+                    <span class="mod"><i class="fa-solid fa-moon"></i></span>
+                </button>
+            </li>
+
+        </ul>
+        </div>
+        
+        </div>
+    </header>
 
     <section id="principal">
         <section id="publicaciones">
@@ -183,4 +230,42 @@
         </section>
     </section>
 
-    <?php require('footer.php') ?>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="https://jailbreak-update.github.io/jquery/jquery-3.3.1.min.js"></script>	
+		<script src="js/sweetalert.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="js/particulas.js"></script>
+
+        <div id="donate-button-container">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'AQL9KDQA28NFN',
+            image: {
+            src:'https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif',
+            alt:'Donate with PayPal button',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button');
+            </script>
+            </div>
+
+            <input type="checkbox" id="btn-menu">
+        <div class="container-menu">
+            <div class="cont-menu">
+                <nav>
+                    <a href="/index.html">Inicio</a>
+                    <a id="btn0">Acerca de Mi</a>
+                    <a id="btn1">Categorias</a>
+                </nav>
+                <label for="btn-menu" class="icon-forward"></label>
+            </div>
+        </div>
+
+        <script src="/js/main.js"></script>
+            
+</body>
+</html>
