@@ -7,7 +7,7 @@ dataLayer = [];
 if(!localStorage.getItem('cookies-aceptadas')){
 	avisoCookies.classList.add('activo');
 	fondoAvisoCookies.classList.add('activo');
-	document.body.classList.add('no_scroll')
+	document.body.classList.toggle('no_scroll')
 }  else {
 	dataLayer.push({'event': 'cookies-aceptadas'});
 }
