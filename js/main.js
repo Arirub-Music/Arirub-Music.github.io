@@ -12,7 +12,7 @@ btnSwitch.addEventListener('click', () => {
     }
 });
 
-if (localStorage.getItem('darl-mode') === 'true') {
+if (localStorage.getItem('dark-mode') === 'true') {
     document.body.classList.add('dark');
     btnSwitch.classList.add('active');
 } else {
