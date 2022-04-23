@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/pie.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d30eafd107.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b1ebb9c7c5.js" crossorigin="anonymous"></script>
     <link rel=”canonical” href=”https://arirub-music.github.io/” />
+    <link rel="stylesheet" href="css/menu-lateral.css">
     <meta name="description" content="Las mejores Playlist echas por Arirub Music. Disponible en YouTube, SoundCloud, Spotify & Deezer">
     <meta name="keywords" content="Musica, Playlist, Genero Musical, Bachata, Reggaeton, Cantantes, Music, Arirub, Listas de Reproduccion, Creador, Top, Mix, Pop, Cumbia, Mundo, World, random, JD, Kim Loaiza, cachengue, dembow, reggaeton old school, reggaeton 2021, aleteo, fiestero, dj, Arirub Music, Varios Artistas, Tendencias, Discoteca, 2022">
     <title>Arirub Music</title>
@@ -29,12 +31,13 @@
            <div id="menu">
         <ul>
             <li><a href="/index.html" class="enlace">Inicio</a></li>
-            <li><a id="btn0" class="enlace">Acerca de Mi</a></li>
+            <li><a id="btn0" class="enlace2">Acerca de Mi</a></li>
             <li><a href="" class="active-menu">Categorias</a></li>
 
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu"></label>
             </div>
+
 
             <li class="modo">
                 <button class="switch" id="switch">
@@ -1039,35 +1042,37 @@
         
 
             <input type="checkbox" id="btn-menu">
-        <div class="container-menu">
-            <div class="cont-menu">
-
-                <nav>
-                    <a href="/index.html">Inicio</a>
-                    <a id="btn0">Acerca de Mi</a>
-                    <a href="/categorias/categorias.html">Categorias</a>
-                <p><label class="filter-btn2 a" for="All">All</label></p>
-                   <br>
-                   <p><label class="filter-btn2 a" for="Pop">Pop</label></p>
-                   <br>
-                <p> <label class="filter-btn2 a" for="Reggaeton">Reggaeton</label></p>
+            <div class="container-menu">
+                <div class="cont-menu">
+    
+                    <nav>
+                        <a href="/index.html">Inicio</a>
+                        <input type="checkbox" id="cat-menu">
+                        <label for="cat-menu" class="as"> Categorias  <span class="icon-caret-down"></span></label>
+                        <br>
+                        <div class="categorias">
+                    <p><label class="filter-btn2 a" for="All">All</label></p>
+                       <br>
+                       <p><label class="filter-btn2 a" for="Pop">Pop</label></p>
+                       <br>
+                    <p> <label class="filter-btn2 a" for="Reggaeton">Reggaeton</label></p>
+                    <br>
+                <p> <label class="filter-btn2 a" for="RegionalMexicano">Regional MX</label></p>
                 <br>
-            <p> <label class="filter-btn2 a" for="RegionalMexicano">Regional MX</label></p>
+            <p> <label  class="filter-btn2 a"for="Cumbia">Cumbia</label></p>
             <br>
-        <p> <label  class="filter-btn2 a"for="Cumbia">Cumbia</label></p>
+        <p><label  class="filter-btn2 a"for="Bachata">Bachata</label></p>
         <br>
-    <p><label  class="filter-btn2 a"for="Bachata">Bachata</label></p>
+    <p> <label  class="filter-btn2 a"for="Merengue">Merengue</label></p>
     <br>
-<p> <label  class="filter-btn2 a"for="Merengue">Merengue</label></p>
-<br>
-<p><label  class="filter-btn2 a"for="Banda">Banda</label></p>
-<br>
-<p> <label  class="filter-btn2 a"for="Trap">Trap</label></p>
-            
-            </nav>
-                <label for="btn-menu" class="icon-forward label2"></label>
+    <p><label  class="filter-btn2 a"for="Banda">Banda</label></p>
+    <br>
+    <p> <label  class="filter-btn2 a"for="Trap">Trap</label></p>
+</div>
+                </nav>
+                    <label for="btn-menu" class="icon-forward label2"></label>
+                </div>
             </div>
-        </div>
 
         <script src="/js/main.js"></script>
             
