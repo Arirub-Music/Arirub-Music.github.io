@@ -1,0 +1,21 @@
+.form-control{
+    background: #9494945e;
+    margin: 119px;
+    padding: 9.5px;
+    left: 0px;
+    border-radius: 20px;
+    width: 55%;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.form-group{
+    margin: 10px auto;
+}
+
+body.dark .form-control{
+    background: #fffefeee;
+    
+}
+
+::placeholder { color: rgb(0, 0, 0); }
