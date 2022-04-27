@@ -565,6 +565,12 @@ box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
    
 }
 
+@media screen and (max-width: 912px) {
+    #encabezado{
+        width: 90% !important;
+    }
+}
+
 @media screen and (max-width: 805px) {
     #logo{
         font-size: 20px;
@@ -652,7 +658,7 @@ box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
 }
 
 
-@media screen and (max-width: 617px){
+@media screen and (max-width: 806px){
 
     #menu .active-menu, .enlace{
         display: none;
