@@ -540,8 +540,19 @@ box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
     display: block;
 }
 
+#menu ul li .enlace2{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
 
+}
 
+#menu ul li .enlace2:hover{
+    background: #585858;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
 
 
 
@@ -658,6 +669,8 @@ box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
 }
 
 
+
+
 @media screen and (max-width: 806px){
 
     #menu .active-menu, .enlace{
@@ -666,6 +679,10 @@ box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
 
     #menu{
         margin-top: 30px;
+    }
+
+    #menu ul li .enlace2{
+        padding: 3px !important;
     }
 
     .btn-menu {
