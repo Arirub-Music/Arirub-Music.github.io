@@ -11870,6 +11870,7 @@ var JotForm = {
                 var imask = new Inputmask({
                     alias: 'datetime',
                     inputFormat: inputs[i].dataset.mask ? inputs[i].dataset.mask : 'hh:MM',
+                    inputEventOnly: true,
                     jitMasking: true,
                     oncomplete: dateTimeOnComplete,
                     onincomplete: function (e) {
@@ -12008,6 +12009,7 @@ var JotForm = {
                 var imask = new Inputmask({
                     alias: 'datetime',
                     inputFormat: dateFormat,
+                    inputEventOnly: true,
                     placeholder: liteModeInputs[i].placeholder,
                     oncomplete: function (e) {
                         var splittedDateFormat = dateFormat.split(dateSeperator);
