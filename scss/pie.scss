@@ -1,3 +1,9 @@
+// Variables
+$color-principal: #0489B1;
+$color-secundario: white;
+$color-negro: #000;
+$color-descrip: #848488;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +11,14 @@
 }
 
 body{
-    background: white;
+    background: $color-secundario;
     font-family: Calibri;
     transition: .3s ease all;
+
 }
 
 body.dark{
-    background: #000;
+    background: $color-negro;
 }
 
 /*contenido prinmcipal*/
@@ -41,7 +48,7 @@ body.dark{
     background: #fdfdfd;
     border-left-style: solid;
     border-left-width: 5px;
-    border-left-color: #0489B1;
+    border-left-color: $color-principal;
     border-radius: 10px;
     box-shadow: 0px 0px 15px #ccc;
     margin-bottom: 25px;
@@ -85,7 +92,7 @@ body.dark #publicaciones a .titulo-post{
 
 #publicaciones .datos-piblicaciones{
     font-family: 'calibri light';
-    color: #0489B1;
+    color: $color-principal;
 }
 
 body.dark #publicaciones .datos-piblicaciones{
@@ -99,7 +106,7 @@ body.dark .dar{
 #publicaciones .parrafo-post{
     font-family: 'calibri light';
     font-size: 16px;
-    color: #848488;
+    color: $color-descrip;
     padding: 5px;
 }
 
@@ -108,8 +115,8 @@ body.dark #publicaciones .parrafo-post{
 }
 
 #publicaciones .ir-playlist{
-    background: #0489B1;
-    color: white;
+    background: $color-principal;
+    color: $color-secundario;
     border: 0px;
     padding: 5px;
     text-decoration: none;
@@ -119,7 +126,7 @@ body.dark #publicaciones .parrafo-post{
 
 #publicaciones .num-likes{
     background: #0b3b39;
-    color: white;
+    color: $color-secundario;
     border: 0px;
     border-radius: 5px;
     text-decoration: none;
@@ -128,7 +135,7 @@ body.dark #publicaciones .parrafo-post{
 
 #publicaciones .enlace-paginacion{
     text-decoration: none;
-    color: #0489B1;
+    color: $color-principal;
 }
 
 #publicaciones .enlace-paginacion:hover{
@@ -137,7 +144,7 @@ body.dark #publicaciones .parrafo-post{
 
 #publicaciones .ir-playlist:hover{
     background: #086a87;
-    color: white;
+    color: $color-secundario;
     
 }
 
@@ -174,7 +181,7 @@ form{
 
 #buscar .boton{
     border: 0px;
-    color: white;
+    color: $color-secundario;
     background: #0b4c5f;
     padding: 10px;
     border-radius: 10px;
@@ -183,9 +190,9 @@ form{
 .encabezado-sidebar{
     width: 100%;
     height: 35px;
-    background: #0489B1;
+    background: $color-principal;
     text-align: center;
-    color: white;
+    color: $color-secundario;
     font-size: 19px;
     font-family: 'calibri light';
 }
@@ -196,7 +203,7 @@ form{
     text-decoration: none;
     border-bottom: 1px solid #ccc;
     padding: 10px 5px;
-    color: #848488;
+    color: $color-descrip;
 }
 
 body.dark .enlace-sidebar{
@@ -224,7 +231,7 @@ body.dark .enlace-sidebar:hover{
     font-size: 20px;
     background: #015d79;
     border-radius: 100%;
-    color: white;
+    color: $color-secundario;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +302,7 @@ body.dark .enlace-sidebar:hover{
 }
 
 .aviso-cookies .boton:hover {
-	background: #000;
+	background: $color-negro;
 }
 
 .aviso-cookies .enlace {
@@ -464,7 +471,7 @@ body.dark .enlace-sidebar:hover{
     
     .switch.active{
         background: orange;
-        color: #000;
+        color: $color-negro;
     }
     
     .switch.active::after{
@@ -587,7 +594,7 @@ body::-webkit-scrollbar{
   }
   
   body::-webkit-scrollbar-thumb{
-    background: #0489B1;
+    background: $color-principal;
 border-radius: 5px;
   
   }
@@ -626,7 +633,7 @@ body.dark header{
     width: 80%;
     height: 90px;
     margin: auto;
-    border: 0px solid #000;
+    border: 0px solid $color-negro;
     
 }
 
@@ -634,7 +641,7 @@ body.dark header{
     width: 30%;
     height: auto; overflow: hidden;
     float: left;
-    color: white;
+    color: $color-secundario;
     font-size: 30px;
     margin-top: 45px;
 }
@@ -664,7 +671,7 @@ body.dark header{
 }
 
 #menu ul li .enlace{
-    color: white;
+    color: $color-secundario;
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
@@ -673,14 +680,14 @@ body.dark header{
 
 #menu ul li .enlace:hover{
     background: #585858;
-    color: white;
+    color: $color-secundario;
     border-radius: 5px 5px 0px 0px;
 }
 
 
 #menu ul li .active-menu{
     background: #585858;
-    color: white;
+    color: $color-secundario;
     border-radius: 5px 5px 0px 0px;
     padding: 10px;
 }
@@ -762,7 +769,7 @@ body.dark .Ari{
 }
 
 .Ari{
-    color: #848488;
+    color: $color-descrip;
 }
 
 body.dark .enlace-paginacion{
@@ -773,7 +780,7 @@ body.dark .enlace-paginacion{
 
 
 #menu ul li .enlace2{
-    color: white;
+    color: $color-secundario;
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
@@ -782,6 +789,7 @@ body.dark .enlace-paginacion{
 
 #menu ul li .enlace2:hover{
     background: #585858;
-    color: white;
+    color: $color-secundario;
     border-radius: 5px 5px 0px 0px;
 }
+
