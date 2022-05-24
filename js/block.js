@@ -30,7 +30,7 @@ return false;
 }
 
 // Click Derecho
-/*function disableIE() {
+function disableIE() {
     if (document.all) {
         return false;
     }
@@ -50,4 +50,4 @@ else {
     document.onmouseup = disableNS;
     document.oncontextmenu = disableIE;
 }
-document.oncontextmenu=new Function("return false");*/
+document.oncontextmenu=new Function("return false");
