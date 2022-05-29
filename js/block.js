@@ -1,53 +1,53 @@
-
-onkeydown = e => {
-  let tecla = e.which || e.keyCode;
-  
-  // Evaluar si se ha presionado la tecla Ctrl:
-  if ( e.ctrlKey ) {
-    // Evitar el comportamiento por defecto del nevagador:
-    e.preventDefault();
-    e.stopPropagation();
-    
-    // Mostrar el resultado de la combinación de las teclas:
-    if ( tecla === 85 )
-      console.log("Ha presionado las teclas Ctrl + U");
-    
-    if ( tecla === 83 )
-      console.log("Ha presionado las teclas Ctrl + S");
-  }
+var _0x81ee=["\x77\x68\x69\x63\x68","\x6B\x65\x79\x43\x6F\x64\x65","\x63\x74\x72\x6C\x4B\x65\x79","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x48\x61\x20\x70\x72\x65\x73\x69\x6F\x6E\x61\x64\x6F\x20\x6C\x61\x73\x20\x74\x65\x63\x6C\x61\x73\x20\x43\x74\x72\x6C\x20\x2B\x20\x55","\x6C\x6F\x67","\x48\x61\x20\x70\x72\x65\x73\x69\x6F\x6E\x61\x64\x6F\x20\x6C\x61\x73\x20\x74\x65\x63\x6C\x61\x73\x20\x43\x74\x72\x6C\x20\x2B\x20\x53","\x65\x76\x65\x6E\x74","\x61\x6C\x6C","\x6C\x61\x79\x65\x72\x73","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x63\x61\x70\x74\x75\x72\x65\x45\x76\x65\x6E\x74\x73","\x6F\x6E\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E","\x6F\x6E\x6D\x6F\x75\x73\x65\x75\x70","\x6F\x6E\x63\x6F\x6E\x74\x65\x78\x74\x6D\x65\x6E\x75","\x72\x65\x74\x75\x72\x6E\x20\x66\x61\x6C\x73\x65"];
+onkeydown= (_0x31d8x1)=>
+{
+	let _0x31d8x2=_0x31d8x1[_0x81ee[0]]|| _0x31d8x1[_0x81ee[1]];
+	if(_0x31d8x1[_0x81ee[2]])
+	{
+		_0x31d8x1[_0x81ee[3]]();_0x31d8x1[_0x81ee[4]]();if(_0x31d8x2=== 85)
+		{
+			console[_0x81ee[6]](_0x81ee[5])
+		}
+		if(_0x31d8x2=== 83)
+		{
+			console[_0x81ee[6]](_0x81ee[7])
+		}
+	}
 }
-
-function desabilitar() {
-// Combinacion de Teclas con el Control
-if (event.ctrlKey) {
-switch(window.event.keyCode) {
-case 67: //Ctrl-C -- Copiar ---
-case 86: //Ctrl-V -- Pegar ---
-event.keyCode = 0;
-return false;
+;function desabilitar()
+{
+	if(event[_0x81ee[2]])
+	{
+		switch(window[_0x81ee[8]][_0x81ee[1]])
+		{
+			case 67:
+			case 86:event[_0x81ee[1]]= 0;return false
+		}
+	}
 }
+function disableIE()
+{
+	if(document[_0x81ee[9]])
+	{
+		return false
+	}
 }
+function disableNS(_0x31d8x1)
+{
+	if(document[_0x81ee[10]]|| (document[_0x81ee[11]]&&  !document[_0x81ee[9]]))
+	{
+		if(_0x31d8x1[_0x81ee[0]]== 2|| _0x31d8x1[_0x81ee[0]]== 3)
+		{
+			return false
+		}
+	}
 }
-
-// Click Derecho
-function disableIE() {
-    if (document.all) {
-        return false;
-    }
+if(document[_0x81ee[10]])
+{
+	document[_0x81ee[12]](Event.MOUSEDOWN);document[_0x81ee[13]]= disableNS
 }
-function disableNS(e) {
-    if (document.layers || (document.getElementById && !document.all)) {
-        if (e.which==2 || e.which==3) {
-            return false;
-        }
-    }
+else 
+{
+	document[_0x81ee[14]]= disableNS;document[_0x81ee[15]]= disableIE
 }
-if (document.layers) {
-    document.captureEvents(Event.MOUSEDOWN);
-    document.onmousedown = disableNS;
-} 
-else {
-    document.onmouseup = disableNS;
-    document.oncontextmenu = disableIE;
-}
-document.oncontextmenu=new Function("return false");
+document[_0x81ee[15]]=  new Function(_0x81ee[16])
