@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?36xig4');
-  src:  url('fonts/icomoon.eot?36xig4#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?36xig4') format('truetype'),
-    url('fonts/icomoon.woff?36xig4') format('woff'),
-    url('fonts/icomoon.svg?36xig4#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?gdw0wg');
+  src:  url('fonts/icomoon.eot?gdw0wg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gdw0wg') format('truetype'),
+    url('fonts/icomoon.woff?gdw0wg') format('woff'),
+    url('fonts/icomoon.svg?gdw0wg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -39,6 +39,10 @@
 }
 .icon-unnamed:before {
   content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e90a";
+  color: #1877f2;
 }
 .icon-twitch:before {
   content: "\e902";
