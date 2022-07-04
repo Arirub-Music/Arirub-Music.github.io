@@ -1,9 +1,0 @@
-#Bloquear acceso desde determinas IP
-
-Order deny, allow
-
-Allow from All
-
-Deny from 192.168.100.1
-
-Deny from XXX.XXX.XXX.XXX
