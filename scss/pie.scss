@@ -610,10 +610,8 @@ border-radius: 5px;
       position: relative;
   }
 
-  *{
-    margin: 0;
-    padding: 0;
-
+#cate, #artistas{
+    cursor: pointer;
 }
 
 header{
@@ -624,6 +622,16 @@ header{
     border-bottom-style: solid;
     border-bottom-color: #585858;
     border-bottom-width: 5px;
+}
+
+.ifFooter{
+    width: 100% !important;
+    height: 355px !important;
+    margin-bottom: 0;
+}
+
+.ifHeader{
+    width: 100% !important;
 }
 
 body.dark header{

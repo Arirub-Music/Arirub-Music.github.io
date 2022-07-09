@@ -371,6 +371,13 @@ body.dark .enlace-sidebar:hover{
     visibility: hidden;
 }
 
+.ifFooter{
+    width: 100% !important;
+    height: 355px !important;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
 .categorias{
     visibility: hidden;
 }
