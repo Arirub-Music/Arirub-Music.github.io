@@ -951,3 +951,63 @@ input[type="radio"]{
 [value="Trap"]:checked ~ .mb-2 .post:not([data-category~="Trap"]){
     display: none;
 }
+
+.rojo-logo, .verde-logo {
+    display: none;
+    height: 50px;
+  }
+
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #menu ul li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul ul li {
+    background: #585858;
+  }
+  
+  #menu ul ul li:hover {
+    background: #808080;
+  }
+  
+  #menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  #menu ul ul li {
+    float: none;
+    width: 150px;
+  }
+  
+  #menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+  }
+  
+  #menu ul li:hover > ul {
+    display: block;
+  }
+  
+  footer {
+    margin-bottom: 0;
+  }
+  

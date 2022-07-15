@@ -21,33 +21,37 @@
         <div id="encabezado">
             
            <div id="logo">  
-            <img src="/img/logo.png" class="img-logo" alt=""><span class="element"></span>
+            <img src="/img/logo.png" class="img-logo logo-orin" alt="">
+            <img src="/img/logo-rojo.png" class="img-logo rojo-logo" alt="">
+            <img src="/img/logo-verde.png" class="img-logo verde-logo" alt="">
+            <span class="element"></span>
            </div>
            <div id="cadenas-texto">
             <p>Arirub Music</p>
           </div>
-
+          
            <div id="menu">
         <ul>
-            <li><a href="/index.html" class="enlace">Inicio</a></li>
-            <li><a id="btn0" class="enlace2">Acerca de Mi</a></li>
-            <li><a href="/categorias/categorias.html" class="enlace">Categorias</a></li>
-            <li><a href="/artistas/artistas.html" class="enlace">Artistas</a></li>
+            <li><a href="/" class="enlace">Inicio</a></li>
+
+            <li><a id="exclusiva" class="active-menu">Exclusivas</a></li>
+            <li><a id="videos" class="enlace">Videos</a></li>
+            <li><a class="enlace mas">Filtraciones ></a>
+                <ul>
+                    <li><a href="/categorias/categorias.html">Categorias</a></li>
+                    <li><a href="/artistas/artistas.html">Artistas</a></li>
+                    <li><a id="mes">Mes</a></li>
+                </ul>
+            </li>
 
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu"></label>
             </div>
 
-            <li class="modo">
-                <button class="switch" id="switch">
-                    <span class="mod"><i class="fa-solid fa-sun"></i></span>
-                    <span class="mod"><i class="fa-solid fa-moon"></i></span>
-                </button>
-            </li>
-
         </ul>
-        </div>
-        
+
+    </div>
+    
         </div>
     </header>
 
@@ -96,15 +100,6 @@
 
             </section>
 
-            <section id="categorias">
-                <h2 class="encabezado-sidebar">Playlist Exclusivas</h2>
-                <a href="/playlist_exclusivas/deezer exclusivas.html" class="enlace-sidebar pop"><span class="icon-deezer"> Deezer</span></a>
-                <a href="" class="enlace-sidebar"><span class="icon-youtube"> YouTube</span> - Proximamente</a>
-                <a href="/playlist_exclusivas/spotify exclusivas.html" class="enlace-sidebar"><span class="icon-spotify"> Spotify</span></a>
-                <a href="/playlist_exclusivas/souncloud.html" class="enlace-sidebar"><span class="icon-soundcloud"> SoundCloud</span></a>
- 
-            </section>
-
         </section>
     </section>
 
@@ -143,7 +138,7 @@
             <label for="btn-menu" class="icon-forward"></label>
         </div>
     </div>
-
+    <script src="/js/videos.js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/block.js"></script>
 </body>

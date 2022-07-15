@@ -9,10 +9,6 @@ body {
   transition: 0.3s ease all;
 }
 
-body.dark {
-  background: #000;
-}
-
 /*contenido prinmcipal*/
 #principal {
   width: 80%;
@@ -45,11 +41,6 @@ body.dark {
   margin-bottom: 25px;
 }
 
-body.dark .post {
-  background: #2b2a2a;
-  box-shadow: 0px 0px 15px rgb(88, 85, 85);
-}
-
 .enlace-post {
   text-decoration: none;
 }
@@ -58,10 +49,6 @@ body.dark .post {
   color: #6e6e6e;
   font-size: 22px;
   font-family: "calibri light";
-}
-
-body.dark #publicaciones a .titulo-post {
-  color: #bdbcbc;
 }
 
 #publicaciones a .titulo-post:hover {
@@ -83,23 +70,11 @@ body.dark #publicaciones a .titulo-post {
   color: #0489B1;
 }
 
-body.dark #publicaciones .datos-piblicaciones {
-  color: #4ad5ff;
-}
-
-body.dark .dar {
-  color: rgb(240, 238, 238);
-}
-
 #publicaciones .parrafo-post {
   font-family: "calibri light";
   font-size: 16px;
   color: #848488;
   padding: 5px;
-}
-
-body.dark #publicaciones .parrafo-post {
-  color: #acacb3;
 }
 
 #publicaciones .ir-playlist {
@@ -194,16 +169,8 @@ form {
   color: #848488;
 }
 
-body.dark .enlace-sidebar {
-  color: #bdbcbc;
-}
-
 .enlace-sidebar:hover {
-  background: #f2f2f2;
-}
-
-body.dark .enlace-sidebar:hover {
-  background: #525252;
+  background: rgba(4, 137, 177, 0.3137254902);
 }
 
 .img-plat {
@@ -321,15 +288,12 @@ body.dark .enlace-sidebar:hover {
   #publicaciones {
     width: 100%;
   }
-
   #sidebar {
     width: 100%;
   }
-
   #logo {
     font-size: 25px;
   }
-
   .enlace-sidebar {
     text-align: center;
   }
@@ -353,7 +317,6 @@ body.dark .enlace-sidebar:hover {
   #menu ul li .enlace {
     font-size: 15px;
   }
-
   #menu ul li .active-menu {
     padding: 9px;
   }
@@ -367,11 +330,9 @@ body.dark .enlace-sidebar:hover {
   .element {
     display: none;
   }
-
   .typed-cursor {
     display: none;
   }
-
   .typed-cursor--blink {
     display: none;
   }
@@ -380,11 +341,9 @@ body.dark .enlace-sidebar:hover {
   .text-plat {
     display: none;
   }
-
   .img-plat {
     display: inline;
   }
-
   #publicaciones .ir-playlist {
     padding: 5px;
   }
@@ -393,7 +352,6 @@ body.dark .enlace-sidebar:hover {
   #menu ul li .enlace {
     font-size: 14px;
   }
-
   #menu ul li .active-menu {
     padding: 8.5px;
   }
@@ -402,15 +360,12 @@ body.dark .enlace-sidebar:hover {
   #menu ul li .enlace {
     padding: 5px;
   }
-
   #menu ul li .active-menu {
     padding: 5px;
   }
-
   header {
     height: 95px;
   }
-
   .img-logo {
     margin: 1px 1px 1px 0px;
   }
@@ -465,35 +420,27 @@ body.dark .enlace-sidebar:hover {
   #menu .active-menu, .enlace {
     display: none;
   }
-
   #menu {
     margin-top: 30px;
   }
-
   #menu ul li .enlace2 {
     padding: 3px !important;
   }
-
   .btn-menu {
     display: inline;
   }
-
   .element {
     display: inline;
   }
-
   .typed-cursor {
     display: inline;
   }
-
   .typed-cursor--blink {
     display: inline;
   }
-
   #logo {
     width: 40%;
   }
-
   .modo {
     display: inline;
   }
@@ -502,7 +449,6 @@ body.dark .enlace-sidebar:hover {
   .parrafo-post {
     display: none;
   }
-
   .enlace-sidebar {
     text-align: left;
   }
@@ -511,7 +457,6 @@ body.dark .enlace-sidebar:hover {
   #publicaciones .ir-playlist {
     padding: 3.5px;
   }
-
   .fecha {
     display: none;
   }
@@ -520,19 +465,15 @@ body.dark .enlace-sidebar:hover {
   #publicaciones .ir-playlist {
     padding: 1.6px;
   }
-
   .post {
     padding: 1px;
   }
-
   .element {
     display: none;
   }
-
   .typed-cursor {
     display: none;
   }
-
   .typed-cursor--blink {
     display: none;
   }
@@ -562,8 +503,9 @@ body::-webkit-scrollbar-thumb {
   position: relative;
 }
 
-#cate, #artistas {
-  cursor: pointer;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -574,20 +516,6 @@ header {
   border-bottom-style: solid;
   border-bottom-color: #585858;
   border-bottom-width: 5px;
-}
-
-.ifFooter {
-  width: 100% !important;
-  height: 355px !important;
-  margin-bottom: 0;
-}
-
-.ifHeader {
-  width: 100% !important;
-}
-
-body.dark header {
-  box-shadow: 0px 0px 30px #4d4a4a;
 }
 
 #encabezado {
@@ -602,9 +530,10 @@ body.dark header {
   height: auto;
   overflow: hidden;
   float: left;
-  color: white;
-  font-size: 30px;
-  margin-top: 45px;
+  font-size: 35px;
+  background: linear-gradient(to bottom right, #028ff2, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .img-logo {
@@ -616,11 +545,11 @@ body.dark header {
 }
 
 #menu {
-  width: 60%;
+  width: 75%;
   height: 30px;
   float: right;
   border: 0px solid red;
-  margin-top: 58px;
+  margin-top: 5px;
 }
 
 #menu ul li {
@@ -725,16 +654,8 @@ body.dark header {
   font-size: 18px;
 }
 
-body.dark .Ari {
-  color: #bdbcbc;
-}
-
 .Ari {
   color: #848488;
-}
-
-body.dark .enlace-paginacion {
-  color: #4ad5ff;
 }
 
 /*fin menu lateral*/
@@ -749,4 +670,100 @@ body.dark .enlace-paginacion {
   background: #585858;
   color: white;
   border-radius: 5px 5px 0px 0px;
+}
+
+.rojo-logo, .verde-logo {
+  display: none;
+  height: 50px;
+}
+
+#pin {
+  cursor: pointer;
+  color: #208269;
+  text-decoration: underline;
+}
+
+#cerra, #delete, #social, .mas, #exclusiva, #videos, #mes {
+  cursor: pointer;
+}
+
+.login-img {
+  width: 50px;
+}
+
+.colored-toast.swal2-icon-success {
+  background-color: #a5dc86 !important;
+}
+
+#btn {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+body.swal2-shown > [aria-hidden=true] {
+  transition: 0.1s filter;
+  filter: blur(4px);
+}
+
+/*.btn{
+    color: white;
+    font-size: 10px;
+}*/
+/*#menu ul li {
+    background-color:#2e518b;
+}*/
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#menu ul li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul ul li {
+  background: #585858;
+}
+
+#menu ul ul li:hover {
+  background: #808080;
+}
+
+#menu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+#menu ul ul li {
+  float: none;
+  width: 150px;
+}
+
+#menu ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+#menu ul li:hover > ul {
+  display: block;
+}
+
+footer {
+  margin-bottom: 0;
 }/*# sourceMappingURL=pie.css.map */

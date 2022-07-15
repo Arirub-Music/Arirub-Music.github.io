@@ -950,3 +950,420 @@ input[type="radio"]{
 [value="Trap"]:checked ~ .mb-2 .post:not([data-category~="Trap"]){
     display: none;
 }
+
+.rojo-logo, .verde-logo {
+    display: none;
+    height: 50px;
+  }
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #menu ul li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul ul li {
+    background: #585858;
+  }
+  
+  #menu ul ul li:hover {
+    background: #808080;
+  }
+  
+  #menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+  }
+  
+  #menu ul ul li {
+    float: none;
+    width: 150px;
+  }
+  
+  #menu ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+  }
+  
+  #menu ul li:hover > ul {
+    display: block;
+  }
+  
+  footer {
+    margin-bottom: 0;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background: #000;
+  }
+  
+  body.darrojo #logo {
+    background: linear-gradient(to bottom right, #028ff2, rgb(148, 148, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  body.dark .post {
+    background: #2b2a2a;
+    box-shadow: 0px 0px 15px rgb(88, 85, 85);
+  }
+  
+  body.dark #publicaciones a .titulo-post {
+    color: #bdbcbc;
+  }
+  
+  body.dark #publicaciones .datos-piblicaciones {
+    color: #4ad5ff;
+  }
+  
+  body.dark .dar {
+    color: rgb(240, 238, 238);
+  }
+  
+  body.dark #publicaciones .parrafo-post {
+    color: #acacb3;
+  }
+  
+  body.dark .enlace-sidebar {
+    color: #bdbcbc;
+  }
+  
+  body.dark .enlace-sidebar:hover {
+    background: #525252;
+  }
+  
+  body.dark header {
+    box-shadow: 0px 0px 30px #4d4a4a;
+  }
+  
+  body.dark .Ari {
+    color: #bdbcbc;
+  }
+  
+  body.dark .enlace-paginacion {
+    color: #4ad5ff;
+  }
+  
+  /* Rojo Mode */
+  body.rojo {
+    background: white;
+  }
+  
+  body.rojo #logo {
+    background: linear-gradient(to bottom right, #f46301, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  body.rojo .post {
+    background: #fdfdfd;
+    border-left-color: rgba(126, 2, 2, 0.8274509804);
+  }
+  
+  body.rojo #publicaciones a .titulo-post {
+    color: #6e6e6e;
+  }
+  
+  body.rojo #publicaciones .datos-piblicaciones {
+    color: #ff3838;
+  }
+  
+  body.rojo .dar {
+    color: rgb(0, 0, 0);
+  }
+  
+  body.rojo #publicaciones .parrafo-post {
+    color: #acacb3;
+  }
+  
+  body.rojo .enlace-sidebar {
+    color: #848488;
+  }
+  
+  body.rojo .enlace-sidebar:hover {
+    background: rgba(255, 0, 0, 0.1921568627);
+  }
+  
+  body.rojo header {
+    background: #751717;
+  }
+  
+  body.rojo .encabezado-sidebar {
+    background-color: #751717;
+  }
+  
+  body.rojo .Ari {
+    color: #bdbcbc;
+  }
+  
+  body.rojo .enlace-paginacion {
+    color: #4ad5ff;
+  }
+  
+  body.rojo #publicaciones .ir-playlist {
+    background-color: #751717;
+  }
+  
+  body.rojo::-webkit-scrollbar-thumb {
+    background: #751717;
+  }
+  
+  body.rojo .logo-orin {
+    display: none;
+  }
+  
+  body.rojo .rojo-logo {
+    display: inline;
+  }
+  
+  body.rojo #btn {
+    background-color: transparent;
+  }
+  
+  /* Dark Rojo */
+  body.darrojo #btn {
+    background-color: transparent;
+  }
+  
+  body.darrojo #logo {
+    background: linear-gradient(to bottom right, #f46301, rgb(148, 148, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  body.darrojo {
+    background: #000;
+  }
+  
+  body.darrojo .post {
+    border-left-color: rgba(126, 2, 2, 0.8274509804);
+    background: #2b2a2a;
+    box-shadow: 0px 0px 15px rgb(88, 85, 85);
+  }
+  
+  body.darrojo #publicaciones a .titulo-post {
+    color: #6e6e6e;
+  }
+  
+  body.darrojo #publicaciones .datos-piblicaciones {
+    color: #ff3838;
+  }
+  
+  body.darrojo .dar {
+    color: rgb(0, 0, 0);
+  }
+  
+  body.darrojo #publicaciones .parrafo-post {
+    color: #acacb3;
+  }
+  
+  body.darrojo .enlace-sidebar {
+    color: #848488;
+  }
+  
+  body.darrojo .enlace-sidebar:hover {
+    background: rgba(255, 0, 0, 0.1921568627);
+  }
+  
+  body.darrojo header {
+    background: #751717;
+  }
+  
+  body.darrojo .encabezado-sidebar {
+    background-color: #751717;
+  }
+  
+  body.darrojo .Ari {
+    color: #bdbcbc;
+  }
+  
+  body.darrojo .enlace-paginacion {
+    color: #4ad5ff;
+  }
+  
+  body.darrojo #publicaciones .ir-playlist {
+    background-color: #751717;
+  }
+  
+  body.darrojo::-webkit-scrollbar-thumb {
+    background: #751717;
+  }
+  
+  body.darrojo .logo-orin {
+    display: none;
+  }
+  
+  body.darrojo .rojo-logo {
+    display: inline;
+  }
+  
+  /* Verde Mode */
+  body.verde #btn {
+    background-color: transparent;
+  }
+  
+  body.verde #logo {
+    background: linear-gradient(to bottom right, #acfd09, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  body.verde {
+    background: white;
+  }
+  
+  body.verde .post {
+    background: #fdfdfd;
+    border-left-color: #177517;
+  }
+  
+  body.verde #publicaciones a .titulo-post {
+    color: #6e6e6e;
+  }
+  
+  body.verde #publicaciones .datos-piblicaciones {
+    color: #33a124;
+  }
+  
+  body.verde .dar {
+    color: rgb(0, 0, 0);
+  }
+  
+  body.verde #publicaciones .parrafo-post {
+    color: #acacb3;
+  }
+  
+  body.verde .enlace-sidebar {
+    color: #848488;
+  }
+  
+  body.verde .enlace-sidebar:hover {
+    background: rgba(9, 255, 0, 0.1921568627);
+  }
+  
+  body.verde header {
+    background: #177517;
+  }
+  
+  body.verde .encabezado-sidebar {
+    background-color: #177517;
+  }
+  
+  body.verde .Ari {
+    color: #bdbcbc;
+  }
+  
+  body.verde .enlace-paginacion {
+    color: #4ad5ff;
+  }
+  
+  body.verde #publicaciones .ir-playlist {
+    background-color: #177517;
+  }
+  
+  body.verde::-webkit-scrollbar-thumb {
+    background: #177517;
+  }
+  
+  body.verde .logo-orin {
+    display: none;
+  }
+  
+  body.verde .verde-logo {
+    display: inline;
+  }
+  
+  body.darverde #btn {
+    background-color: transparent;
+  }
+  
+  body.darverde #logo {
+    background: linear-gradient(to bottom right, #acfd09, rgb(148, 148, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  body.darverde {
+    background: #000;
+  }
+  
+  body.darverde .post {
+    background: #fdfdfd;
+    border-left-color: #177517;
+    background: #2b2a2a;
+    box-shadow: 0px 0px 15px rgb(88, 85, 85);
+  }
+  
+  body.darverde #publicaciones a .titulo-post {
+    color: #6e6e6e;
+  }
+  
+  body.darverde #publicaciones .datos-piblicaciones {
+    color: #33a124;
+  }
+  
+  body.darverde .dar {
+    color: rgb(0, 0, 0);
+  }
+  
+  body.darverde #publicaciones .parrafo-post {
+    color: #acacb3;
+  }
+  
+  body.darverde .enlace-sidebar {
+    color: #848488;
+  }
+  
+  body.darverde .enlace-sidebar:hover {
+    background: rgba(9, 255, 0, 0.1921568627);
+  }
+  
+  body.darverde header {
+    background: #177517;
+  }
+  
+  body.darverde .encabezado-sidebar {
+    background-color: #177517;
+  }
+  
+  body.darverde .Ari {
+    color: #bdbcbc;
+  }
+  
+  body.darverde .enlace-paginacion {
+    color: #4ad5ff;
+  }
+  
+  body.darverde #publicaciones .ir-playlist {
+    background-color: #177517;
+  }
+  
+  body.darverde::-webkit-scrollbar-thumb {
+    background: #177517;
+  }
+  
+  body.darverde .logo-orin {
+    display: none;
+  }
+  
+  body.darverde .verde-logo {
+    display: inline;
+  }/*# sourceMappingURL=pie.css.map */
