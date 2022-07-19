@@ -1,3 +1,43 @@
-#raiz, #cate, #artistas{
+#raiz, 
+#cate, 
+#artistas,
+#social, 
+.mas, 
+#exclusiva, 
+#videos, 
+#mes, 
+#Spotify, 
+#YTM, 
+#SoundC, 
+#Deezer, 
+#ClaroM,
+#YandexM,
+#Anghami,
+#AmazonM,
+#DeezerUP,
+#SoundCUP,
+#YTUP,
+#spotifyUP,
+#ClaroMUP,
+#YandexMUP{
     cursor: pointer;
+}
+
+#DeezerUP h4::after{
+    content: "JUNIO 2022";
+}
+#SoundCUP h4::after{
+    content: "JUNIO 2022";
+}
+#YTUP h4::after{
+    content: "Pice Of Your Heart - MEDUZA, Alok, Goodboys [Audio]";
+}
+#spotifyUP h4::after{
+    content: "JUNIO 2022";
+}
+#ClaroMUP h4::after{
+    content: "Andando De Noche";
+}
+#YandexMUP h4::after{
+    content: "Éxitos Reggaeton 2008";
 }
