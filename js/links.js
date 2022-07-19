@@ -68,13 +68,13 @@ DeezerUP.addEventListener('click', () => {
     window.open('https://www.deezer.com/es/playlist/10505630122', '_blank');
 });
 SoundCUP.addEventListener('click', () => {
-    window.open('https://soundcloud.com/arirub-music/sets/junio-2022?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing', '_blank');
+    window.open('https://soundcloud.com/arirub-music/sets/la-academia-2022?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing', '_blank');
 });
 YTUP.addEventListener('click', () => {
     window.open('https://youtu.be/8PfQOxCp4yA', '_blank');
 });
 spotifyUP.addEventListener('click', () => {
-    window.open('https://open.spotify.com/playlist/3aWEEJ5bKvibgtqxZiQ8n7?si=fb5ba28e29e944ae', '_blank');
+    window.open('https://open.spotify.com/playlist/5hiFFnFZZ6MqY5yKcsYclw?si=fc5f78a1d44d47eb', '_blank');
 });
 ClaroMUP.addEventListener('click', () => {
     window.open('https://www.claromusica.com/userPlaylist/63039571/MX', '_blank');
