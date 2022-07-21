@@ -34,7 +34,7 @@ body { margin: 0; padding: 0; }
         #fill {
             padding: 2px 0;
             background-color: #015d79; /* Fill colour */
-            width: 10%; /* Bar percentage, change text below also */
+            width: 15%; /* Bar percentage, change text below also */
             border-radius: 25px; /* Roundness */
             animation: proanimate 2s;
         }
