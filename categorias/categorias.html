@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/pie.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="/img/logo.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/links.css">
     <meta name="author" content="Arian, Arirub Music">
     <script src="https://kit.fontawesome.com/d30eafd107.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b1ebb9c7c5.js" crossorigin="anonymous"></script>
@@ -34,17 +35,19 @@
           
            <div id="menu">
         <ul>
-            <li><a href="/" class="enlace">Inicio</a></li>
+            <li><a id="raiz" class="enlace">Inicio</a></li>
 
             <li><a id="exclusiva" class="enlace">Exclusivas</a></li>
             <li><a id="videos" class="enlace">Videos</a></li>
             <li><a class="active-menu mas">Filtraciones ></a>
                 <ul>
-                    <li><a href="/categorias/categorias.html">Categorias</a></li>
-                    <li><a href="/artistas/artistas.html">Artistas</a></li>
+                    <li><a id="cate">Categorias</a></li>
+                    <li><a id="artistas">Artistas</a></li>
                     <li><a id="mes">Mes</a></li>
                 </ul>
             </li>
+            <li><a href="javascript:void(0)" onclick="window.location.href='//discord.gg/tzP2JfNnsH'" target="_blank" class="enlace"><span class="icon-discord"></span> Discord</a></li>
+            <!--li><a id="conciertos" class="enlace">Conciertos</a></!--li-->
 
             <div class="btn-menu">
                 <label for="btn-menu" class="icon-menu"></label>
@@ -1087,7 +1090,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 		<script src="https://jailbreak-update.github.io/jquery/jquery-3.3.1.min.js"></script>	
 		<script src="/js/sweetalert.js"></script>
-
+<script src="/js/links-inter.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="js/particulas.js"></script>
 

@@ -38,11 +38,13 @@ body.dark header{
 
 #logo{
     width: 30%;
-    height: auto; overflow: hidden;
+    height: auto;
+    overflow: hidden;
     float: left;
-    color: white;
-    font-size: 30px;
-    margin-top: 45px;
+    font-size: 35px;
+    background: linear-gradient(to bottom right, #028ff2, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .img-logo{
@@ -55,11 +57,11 @@ body.dark header{
  }
 
 #menu{
-    width: 60%;
+    width: 75%;
     height: 30px;
     float: right;
     border: 0px solid red;
-    margin-top: 58px;
+    margin-top: 5px;
 }
 
 #menu ul{}

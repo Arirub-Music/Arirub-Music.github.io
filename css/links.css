@@ -19,7 +19,9 @@
 #YTUP,
 #spotifyUP,
 #ClaroMUP,
-#YandexMUP{
+#YandexMUP,
+#conciertos,
+#Discord{
     cursor: pointer;
 }
 
@@ -30,7 +32,7 @@
     content: "La academia 2022";
 }
 #YTUP h4::after{
-    content: "Pice Of Your Heart - MEDUZA, Alok, Goodboys [Audio]";
+    content: "A la antigüita - Calibre 50 (LETRA/LYRIC)";
 }
 #spotifyUP h4::after{
     content: "La academia 2022";

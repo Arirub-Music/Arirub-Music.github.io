@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?7utztn');
-  src:  url('fonts/icomoon.eot?7utztn#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?7utztn') format('truetype'),
-    url('fonts/icomoon.woff?7utztn') format('woff'),
-    url('fonts/icomoon.svg?7utztn#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?n0esx2');
+  src:  url('fonts/icomoon.eot?n0esx2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?n0esx2') format('truetype'),
+    url('fonts/icomoon.woff?n0esx2') format('woff'),
+    url('fonts/icomoon.svg?n0esx2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -57,6 +57,10 @@
 .icon-unnamed:before {
   content: "\e903";
 }
+.icon-discord:before {
+  content: "\e908";
+  color: #7289da;
+}
 .icon-twitch:before {
   content: "\e902";
   color: #6441a4;
@@ -79,12 +83,6 @@
 .icon-spotify:before {
   content: "\e907";
   color: #1ed760;
-}
-.icon-cross:before {
-  content: "\ea0f";
-}
-.icon-exit:before {
-  content: "\ea14";
 }
 .icon-facebook:before {
   content: "\ea90";

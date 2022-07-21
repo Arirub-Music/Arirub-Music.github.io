@@ -19,3 +19,12 @@ twitter.addEventListener('click', () => {
 tiktok.addEventListener('click', () => {
   window.open("https://www.tiktok.com/@arirubmusic", '_blank')
 });
+
+
+Swal.fire({
+  title: 'Unete a Nuestro <span class="icon-discord"></span> Discord',
+  showCancelButton: false,
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+})
