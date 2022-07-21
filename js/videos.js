@@ -36,10 +36,12 @@ exclusiva.addEventListener('click', () => {
     const { value: fruit } = Swal.fire({
         title: 'Playlist Exclusivas',
         input: 'select',
+        html: '<span class="icon-spotify"></span> <span class="icon-deezer"></span> <span class="icon-soundcloud"></span> <span class="icon-youtube"></span>',
         inputOptions: {
             spotify: 'Spotify',
             deezer: 'Deezer',
             sound: 'SoundCloud',
+            youtube: 'YouTube'
         },
         inputPlaceholder: 'Selecciona una',
         showCancelButton: true,
@@ -51,6 +53,8 @@ exclusiva.addEventListener('click', () => {
                 window.location="/playlist_exclusivas/deezerexclusivas.html";
             }if (value === 'sound') {
                 window.location="/playlist_exclusivas/souncloud.html";
+            }if (value === 'youtube') {
+              window.location="/playlist_exclusivas/youtube.html";
             }else {
               resolve('Tienes que seleccionar una')
             }
