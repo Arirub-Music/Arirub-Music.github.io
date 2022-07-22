@@ -1074,6 +1074,10 @@ input[type="radio"]{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  body.rojo .filter-btn2.active {
+    background-color: rgb(175, 2, 2);
+  }
   
   body.rojo .post {
     background: #fdfdfd;
