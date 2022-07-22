@@ -19,7 +19,7 @@
 #YTUP,
 #spotifyUP,
 #ClaroMUP,
-#YandexMUP,
+#AmazonMUP,
 #conciertos,
 #Discord{
     cursor: pointer;
@@ -40,6 +40,6 @@
 #ClaroMUP h4::after{
     content: "Andando De Noche";
 }
-#YandexMUP h4::after{
-    content: "Éxitos Reggaeton 2008";
+#AmazonMUP h4::after{
+    content: "CLÁSICAS DE BANDA";
 }
