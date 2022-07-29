@@ -156,7 +156,7 @@
   }
   
   body.darrojo .dar {
-    color: rgb(0, 0, 0);
+    color: rgb(240, 238, 238);
   }
   
   body.darrojo #publicaciones .parrafo-post {
@@ -278,10 +278,13 @@
   body.verde .verde-logo {
     display: inline;
   }
+
+  /* Dark Verde */
   
   body.darverde #btn {
     background-color: transparent;
   }
+
   
   body.darverde #logo {
     background: linear-gradient(to bottom right, #acfd09, rgb(148, 148, 148));
@@ -309,7 +312,7 @@
   }
   
   body.darverde .dar {
-    color: rgb(0, 0, 0);
+    color: rgb(240, 238, 238);
   }
   
   body.darverde #publicaciones .parrafo-post {
