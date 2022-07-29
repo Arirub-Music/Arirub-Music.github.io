@@ -21,10 +21,10 @@ tiktok.addEventListener('click', () => {
 });
 
 
-Swal.fire({
+/*Swal.fire({
   title: 'Unete a Nuestro <span class="icon-discord"></span> Discord',
   showCancelButton: false,
   showConfirmButton: false,
   timer: 3000,
   timerProgressBar: true,
-})
+})*/
