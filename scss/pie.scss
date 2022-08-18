@@ -297,6 +297,25 @@ form{
     display: block;
 }
 
+.icon-arirubmovie{
+    animation: animate 10.5s linear infinite;
+    color: black;
+}
+
+.movie{
+    background-color: rgb(88, 88, 88);
+}
+
+.movie:hover{
+    background-color: #141414 !important;
+}
+
+@keyframes animate {
+	0%, 100% {
+	  text-shadow: 2px -1px 0 #00ffff, -1px 2px 0 #f00;
+	}
+}
+
 @media screen and (max-width: 996px) {
     #publicaciones{
         width:100%;
