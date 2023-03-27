@@ -9,6 +9,18 @@ body {
   transition: 0.3s ease all;
 }
 
+.pre-sonudcloud:hover {
+  color: #f50;
+}
+
+.pre-spotify:hover {
+  color: #1FDF64;
+}
+
+.pre-yt:hover {
+  color: #FF0000;
+}
+
 /*contenido prinmcipal*/
 #principal {
   width: 80%;
@@ -285,8 +297,7 @@ form {
 }
 
 .icon-arirubmovie {
-  -webkit-animation: animate 10.5s linear infinite;
-          animation: animate 10.5s linear infinite;
+  animation: animate 10.5s linear infinite;
   color: black;
 }
 
@@ -296,12 +307,6 @@ form {
 
 .movie:hover {
   background-color: #141414 !important;
-}
-
-@-webkit-keyframes animate {
-  0%, 100% {
-    text-shadow: 2px -1px 0 #00ffff, -1px 2px 0 #f00;
-  }
 }
 
 @keyframes animate {

@@ -1,8 +1,22 @@
-#darazul, #azul, #rojo, #verde, #darrojo, #darverde{
+#darazul,
+#azul,
+#rojo,
+#verde,
+#darrojo,
+#darverde,
+#morado,
+#darmorado {
     cursor: pointer;
 }
 
-.azul-cuadro, .rojo-cuadro, .verde-cuadro, .obscuro-azul-cuadro, .obscuro-rojo-cuadro, .obscuro-verde-cuadro{
+.azul-cuadro,
+.rojo-cuadro,
+.verde-cuadro,
+.morado-cuadro,
+.obscuro-azul-cuadro,
+.obscuro-rojo-cuadro,
+.obscuro-verde-cuadro,
+.obscuro-morado-cuadro {
     display: flex;
     flex-direction: column;
     height: 20px;
@@ -13,63 +27,74 @@
     margin-right: 5px;
 }
 
-.azul-cuadro{
+.azul-cuadro {
     background-color: #015d79;
 }
 
-.rojo-cuadro{
+.rojo-cuadro {
     background-color: #7e0202d3;
 }
 
-.verde-cuadro{
+.verde-cuadro {
     background-color: #177517;
 }
 
-.obscuro-azul-cuadro{
-    background-image: linear-gradient(
-        120deg,
-        hsl(120deg 1% 39%) 1%,
-        hsl(196deg 4% 38%) 43%,
-        hsl(199deg 9% 37%) 50%,
-        hsl(200deg 14% 36%) 51%,
-        hsl(200deg 20% 35%) 51%,
-        hsl(199deg 27% 34%) 49%,
-        hsl(199deg 35% 33%) 49%,
-        hsl(198deg 45% 31%) 50%,
-        hsl(197deg 60% 29%) 57%,
-        hsl(194deg 98% 24%) 99%
-      );
+.morado-cuadro {
+    background-color: hsl(263deg 94% 27%);
 }
 
-.obscuro-rojo-cuadro{
-    background-image: linear-gradient(
-        120deg,
-        hsl(120deg 1% 39%) 1%,
-        hsl(14deg 9% 38%) 43%,
-        hsl(13deg 18% 37%) 50%,
-        hsl(12deg 27% 35%) 51%,
-        hsl(11deg 36% 34%) 51%,
-        hsl(10deg 45% 33%) 49%,
-        hsl(9deg 55% 31%) 49%,
-        hsl(8deg 66% 29%) 50%,
-        hsl(5deg 78% 28%) 57%,
-        hsl(0deg 97% 25%) 99%
-      );
+.obscuro-azul-cuadro {
+    background-image: linear-gradient(120deg,
+            hsl(120deg 1% 39%) 1%,
+            hsl(196deg 4% 38%) 43%,
+            hsl(199deg 9% 37%) 50%,
+            hsl(200deg 14% 36%) 51%,
+            hsl(200deg 20% 35%) 51%,
+            hsl(199deg 27% 34%) 49%,
+            hsl(199deg 35% 33%) 49%,
+            hsl(198deg 45% 31%) 50%,
+            hsl(197deg 60% 29%) 57%,
+            hsl(194deg 98% 24%) 99%);
 }
 
-.obscuro-verde-cuadro{
-    background-image: linear-gradient(
-        120deg,
-        hsl(120deg 1% 39%) 1%,
-        hsl(120deg 4% 38%) 43%,
-        hsl(120deg 8% 37%) 50%,
-        hsl(120deg 13% 37%) 51%,
-        hsl(120deg 18% 36%) 51%,
-        hsl(120deg 24% 35%) 49%,
-        hsl(120deg 30% 34%) 49%,
-        hsl(120deg 38% 32%) 50%,
-        hsl(120deg 49% 30%) 57%,
-        hsl(120deg 67% 27%) 99%
-      );
+.obscuro-rojo-cuadro {
+    background-image: linear-gradient(120deg,
+            hsl(120deg 1% 39%) 1%,
+            hsl(14deg 9% 38%) 43%,
+            hsl(13deg 18% 37%) 50%,
+            hsl(12deg 27% 35%) 51%,
+            hsl(11deg 36% 34%) 51%,
+            hsl(10deg 45% 33%) 49%,
+            hsl(9deg 55% 31%) 49%,
+            hsl(8deg 66% 29%) 50%,
+            hsl(5deg 78% 28%) 57%,
+            hsl(0deg 97% 25%) 99%);
 }
 
+.obscuro-verde-cuadro {
+    background-image: linear-gradient(120deg,
+            hsl(120deg 1% 39%) 1%,
+            hsl(120deg 4% 38%) 43%,
+            hsl(120deg 8% 37%) 50%,
+            hsl(120deg 13% 37%) 51%,
+            hsl(120deg 18% 36%) 51%,
+            hsl(120deg 24% 35%) 49%,
+            hsl(120deg 30% 34%) 49%,
+            hsl(120deg 38% 32%) 50%,
+            hsl(120deg 49% 30%) 57%,
+            hsl(120deg 67% 27%) 99%);
+}
+
+.obscuro-morado-cuadro {
+    background-image: linear-gradient(120deg,
+            hsl(263deg 1% 39%) 1%,
+            hsl(263deg 4% 38%) 43%,
+            hsl(263deg 8% 37%) 50%,
+            hsl(263deg 13% 37%) 51%,
+            hsl(263deg 18% 36%) 51%,
+            hsl(263deg 24% 35%) 49%,
+            hsl(263deg 30% 34%) 49%,
+            hsl(263deg 38% 32%) 50%,
+            hsl(263deg 49% 30%) 57%,
+            hsl(263deg 94% 27%) 99%);
+}

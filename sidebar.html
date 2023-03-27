@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/scss/pie.css">
+    <link rel="stylesheet" href="/css/personalicacion.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/links.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var acc = document.getElementsByClassName("encabezado-sidebar");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function () {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("show");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <section id="sidebar">
+
+        <section id="categorias">
+            <!--button class="encabezado-sidebar"-->
+            <h2 class="encabezado-sidebar">Personaliza (Beta)</h2>
+            <!--/button-->
+            <!--div class="panel"-->
+            <a id="azul" class="enlace-sidebar"><span class="azul-cuadro"></span> Azul (Original)</a>
+            <a id="darazul" class="enlace-sidebar active"><span class="obscuro-azul-cuadro"></span> Obscuro - Azul
+                (Original)</a>
+            <a id="rojo" class="enlace-sidebar"><span class="rojo-cuadro"></span> Rojo</a>
+            <a id="darrojo" class="enlace-sidebar"><span class="obscuro-rojo-cuadro"></span> Obscuro - Rojo</a>
+            <a id="verde" class="enlace-sidebar"><span class="verde-cuadro"></span> Verde</a>
+            <a id="darverde" class="enlace-sidebar"><span class="obscuro-verde-cuadro"></span> Obscuro - Verde</a>
+            <a id="morado" class="enlace-sidebar"><span class="morado-cuadro"></span> Morado</a>
+            <a id="darmorado" class="enlace-sidebar"><span class="obscuro-morado-cuadro"></span> Obscuro -
+                Morado</a>
+            <!--/div-->
+        </section>
+
+        <section id="categorias">
+
+            <h2 class="encabezado-sidebar">Sigueme en</h2>
+
+            <a href="https://open.spotify.com/user/naira12356?si=d44c83d613d74700" target="_blank"
+                class="enlace-sidebar"><span class="icon-spotify"> Spotify</span></a>
+            <a href="https://www.youtube.com/channel/UCuvdiDTFENmblPGEnzqVVOA" target="_blank"
+                class="enlace-sidebar"><span class="icon-youtube"> YouTube </span></a>
+            <a href="https://soundcloud.com/arirub-music" target="_blank"
+                class="enlace-sidebar"><span class="icon-soundcloud"> SoundCloud</span></a>
+
+        </section>
+
+        <section id="sitios-amigos">
+
+            <h2 class="encabezado-sidebar">Ultimos Videos de YT <span class="icon-youtube"></span></h2>
+
+
+            <a href="https://youtu.be/qiOC7ZzEgrg" target="_blank" class="enlace-sidebar">LUNA - JD Pantoja, Kim Loaiza (Letra / Lyric)</a>
+            <a href="https://youtu.be/ps1M6j998_M" target="_blank" class="enlace-sidebar">Tu Recuerdo - Wisin (Letra / Lyric)</a>
+            <a href="https://youtu.be/eKdV2iYzcjA" target="_blank" class="enlace-sidebar">
+                CUPIDO - TINI (Letra / Lyric)</a>
+            <a href="https://youtu.be/SMbbqSQCK_k" target="_blank" class="enlace-sidebar">
+                TQG - Karol G, Shakira (Letra / Lyric) </a>
+            <a href="https://youtu.be/ugNPWJuUqVQ" target="_blank" class="enlace-sidebar">
+                La Hora y El Día - Daddy Yankee (Letra / Lyric)</a>
+
+        </section>
+
+        <section id="sitios-amigos">
+
+            <h2 class="encabezado-sidebar">Videos de YT mas vistos</h2>
+
+
+            <a href="https://youtu.be/KUT3tc2kq1M" target="_blank" class="enlace-sidebar">MAMIII - Becky G y
+                Karol G (Letra / Lyric)</a>
+            <a href="https://youtu.be/chI9mC6Ws7Y" target="_blank" class="enlace-sidebar">Homenaje a Jenni
+                Rivera En La Academia</a>
+            <a href="https://youtu.be/Ng2XVcWj0ak" target="_blank" class="enlace-sidebar">Shakira, Rauw
+                Alejandro - Te Felicito [Audio] </a>
+            <a href="https://youtu.be/_IhRzlUmZ6k" target="_blank" class="enlace-sidebar">La Chona - Los Tucanes
+                De Tijuana [Audio] </a>
+            <a href="https://youtu.be/tSxNsLHR_OM" target="_blank" class="enlace-sidebar">Los Cachos - Piso 21 &
+                Manuel Turizo [Audio]</a>
+
+        </section>
+
+        <section id="sitios-amigos">
+
+            <h2 class="encabezado-sidebar">Ultimos post</h2>
+
+            <a href="//soundcloud.com/arirub-music/sets/febrero-2k23-exitos-y?si=4c3ad7ffac3d401c954a8f8fb458ab68&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                target="_blank" id="SoundCUP" class="enlace-sidebar">
+                <h4></h4>
+                <p><span class="icon-soundcloud"> SoundCloud</span></p>
+            </a>
+
+            <a href="//youtu.be/ps1M6j998_M" target="_blank" id="YTUP" class="enlace-sidebar">
+                <h4></h4>
+                <p><span class="icon-youtube"> YouTube</span></p>
+            </a>
+
+            <a href="//open.spotify.com/playlist/0SS7WNTCfhJ9uGZJuArxRN?si=a1a7ca583e0a4430" target="_blank"
+                id="spotifyUP" class="enlace-sidebar">
+                <h4></h4>
+                <p><span class="icon-spotify"> Spotify</span></p>
+            </a>
+
+            <!--a href="javascript:void(0)"
+                        onclick="window.location.href='//www.claromusica.com/userPlaylist/63039571/MX'" id="ClaroMUP"
+                        class="enlace-sidebar">
+                        <h4></h4>
+                        <p><span class="icon-unnamed"> Claro Música</span></p>
+                    </a-->
+
+            <!--a href="javascript:void(0)"
+                        onclick="window.location.href='//music.amazon.com.mx/user-playlists/7f2c4ecf637048dcbd737743c5f43556m12x?marketplaceId=ART4WZ8MWBX2Y&musicTerritory=MX&ref=dm_sh_Nv3ddCEUjkZ0FOxNrq35mAuAv'"
+                        id="AmazonMUP" class="enlace-sidebar">
+                        <h4></h4>
+                        <p><span class="icon-icons8-amazon-music"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                    class="path8"></span><span class="path9"></span><span class="path10"></span><span
+                                    class="path11"></span><span class="path12"></span><span class="path13"></span><span
+                                    class="path14"></span></span> Amazon
+                            Music</p>
+                    </a-->
+
+        </section>
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

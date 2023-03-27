@@ -1,15 +1,15 @@
-#raiz, 
-#cate, 
+#raiz,
+#cate,
 #artistas,
-#social, 
-.mas, 
-#exclusiva, 
-#videos, 
-#mes, 
-#Spotify, 
-#YTM, 
-#SoundC, 
-#Deezer, 
+#social,
+.mas,
+#exclusiva,
+#videos,
+#mes,
+#Spotify,
+#YTM,
+#SoundC,
+#Deezer,
 #ClaroM,
 #YandexM,
 #Anghami,
@@ -21,25 +21,28 @@
 #ClaroMUP,
 #AmazonMUP,
 #conciertos,
-#Discord{
+#Discord {
     cursor: pointer;
 }
 
-#DeezerUP h4::after{
+/*#DeezerUP h4::after{
     content: "JUNIO 2022";
+}*/
+#SoundCUP h4::after {
+    content: "FEBRERO 2K23: ÉXITOS Y ACTUALIDAD 2K23";
 }
-#SoundCUP h4::after{
-    content: "JULIO 2022";
+
+#YTUP h4::after {
+    content: "Tu Recuerdo - Wisin, Emilia, Lyanno (Letra / Lyric)";
 }
-#YTUP h4::after{
-    content: "HOT - Daddy Yankee y Pitbull (Arirub Music Remix)";
+
+#spotifyUP h4::after {
+    content: "FEBRERO 2K23: ÉXITOS Y ACTUALIDAD 2K23";
 }
-#spotifyUP h4::after{
-    content: "JULIO 2022";
-}
-#ClaroMUP h4::after{
+
+/*#ClaroMUP h4::after{
     content: "Andando De Noche";
 }
 #AmazonMUP h4::after{
     content: "CLÁSICAS DE BANDA";
-}
+}*/
