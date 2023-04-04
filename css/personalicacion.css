@@ -4,8 +4,8 @@
 #verde,
 #darrojo,
 #darverde,
-#morado,
-#darmorado {
+#morado
+ {
     cursor: pointer;
 }
 
@@ -15,8 +15,8 @@
 .morado-cuadro,
 .obscuro-azul-cuadro,
 .obscuro-rojo-cuadro,
-.obscuro-verde-cuadro,
-.obscuro-morado-cuadro {
+.obscuro-verde-cuadro
+ {
     display: flex;
     flex-direction: column;
     height: 20px;
@@ -39,9 +39,9 @@
     background-color: #177517;
 }
 
-.morado-cuadro {
+/*.morado-cuadro {
     background-color: hsl(263deg 94% 27%);
-}
+}*/
 
 .obscuro-azul-cuadro {
     background-image: linear-gradient(120deg,
@@ -85,7 +85,7 @@
             hsl(120deg 67% 27%) 99%);
 }
 
-.obscuro-morado-cuadro {
+/*.obscuro-morado-cuadro {
     background-image: linear-gradient(120deg,
             hsl(263deg 1% 39%) 1%,
             hsl(263deg 4% 38%) 43%,
@@ -97,4 +97,4 @@
             hsl(263deg 38% 32%) 50%,
             hsl(263deg 49% 30%) 57%,
             hsl(263deg 94% 27%) 99%);
-}
+}*/

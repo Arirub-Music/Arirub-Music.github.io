@@ -261,7 +261,7 @@ if (localStorage.getItem('verde-mode') === 'true') {
 
 /* morado */
 
-const btnmorado = document.querySelector('#morado');
+/*const btnmorado = document.querySelector('#morado');
 
 
 btnmorado.addEventListener('click', () => {
@@ -306,4 +306,4 @@ if (localStorage.getItem('morado-mode') === 'true') {
 } else {
 	document.body.classList.remove('morado');
 	btnverde.classList.remove('active');
-}
+}*/

@@ -1,0 +1,52 @@
+button.accordion{
+    background-color: #b92d2d;
+    color: #f3f0f0;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom: 15px;
+}
+
+#categorias{
+    text-align: center;
+}
+
+button.encabezado-sidebar.active, button.encabezado-sidebar:hover {
+    background-color: #b92d2d28;
+}
+
+button.encabezado-sidebar:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #f3f0f0;
+    float: right;
+    margin-left: 5px;
+}
+
+button.encabezado-sidebar.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #b92d2d81;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f3f0f0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+    text-align: center;
+}

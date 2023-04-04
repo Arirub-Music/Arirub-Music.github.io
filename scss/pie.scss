@@ -18,6 +18,19 @@ body{
 
 }
 
+.section-header label{
+    font-size: 45px;
+    padding: center;
+    color: #0489B1;
+    display: none;
+}
+
+.titulo-ex label{
+    font-size: 35px;
+    margin: 20px;
+    color: #06465a;
+}
+
 .pre-sonudcloud:hover{
     color: #f50;
 }
@@ -28,6 +41,61 @@ body{
 
 .pre-yt:hover{
     color: #FF0000;
+}
+
+.contenedor{
+    position: absolute;
+    top: 0;
+    background-color: #0b4c5f;
+    color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cargando{
+    width: 25rem;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.096);
+    position: relative;
+}
+
+.cargando::before{
+    content: "";
+    position: absolute;
+    background-color: #00ce00;
+    width: 0;
+    height: 3rem;
+    animation: cargando 7s infinite;
+}
+
+.cargando p{
+    margin: 0;
+    line-height: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cerrar{
+    transform: translateY(-100);
+    transition: all 0.5s;
+}
+
+@keyframes cargando{
+    90%{
+        width: 100%;
+        opacity: 1;
+    }
+    100%{
+        width: 100%;
+        opacity: 0;
+    }
 }
 
 
@@ -348,98 +416,77 @@ form{
    
 }
 
-@media screen and (max-width: 912px) {
-    #encabezado{
-        width: 90% !important;
+@media screen and (max-width: 1034px) {
+   #menu{
+        width: 95% !important;
     }
 }
 
-@media screen and (max-width: 805px) {
-    #logo{
+@media screen and (max-width: 975px) {
+    #cadenas-textos{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 817px) {
+    #menu{
+        width: 105% !important;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    #menu{
+        width: 110% !important;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    #menu{
+        width: 111% !important;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    #menu ul li .enlace{
+        font-size: 19px !important;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    #menu ul li .enlace{
+        font-size: 15px !important;
+    }
+    #cadenas-textos{
         font-size: 20px;
     }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 563px) {
+    #menu{
+        width: 113% !important;
+    }
+
+}
+
+@media screen and (max-width: 553px) {
     #menu ul li .enlace{
-        font-size: 19px;
+        font-size: 14px !important;
     }
 }
 
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 519px) {
     #menu ul li .enlace{
-        font-size: 15px;
+        font-size: 13px !important;
     }
 
-    #menu ul li .active-menu{
-        padding: 9px;
-    }
 }
 
-@media screen and (max-width: 700px) {
-    #publicaciones .ir-playlist{
-        padding: 2.5px;
-    }
-}
-
-@media screen and (max-width: 688px) {
-      .element{
-        display: none;
-    }
-
-    .typed-cursor {
-        display: none;
-    }
-    
-    
-    .typed-cursor--blink{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 667px) {
-    .text-plat{
-        display: none;
-    }
-
-    .img-plat{
-        display: inline;
-    }
-
-    #publicaciones .ir-playlist{
-        padding: 5px;
-    }
-}
-
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 500px) {
     #menu ul li .enlace{
-        font-size: 14px;
-    }
-
-    #menu ul li .active-menu{
-        padding: 8.5px;
+        font-size: 12px !important;
     }
 
 }
-
-@media screen and (max-width: 607px) {
-    #menu ul li .enlace{
-        padding: 5px;
-    }
-
-    #menu ul li .active-menu{
-        padding: 5px;
-    }
-
-    header{
-        height: 95px;
-    }
-
-    .img-logo{
-        margin: 1px 1px 1px 0px;
-     }
-}
-
 /*modo oscuro*/
 .switch{
     background: #343D5B;
@@ -850,11 +897,12 @@ body.swal2-shown > [aria-hidden="true"] {
 }
 
 #menu ul ul li {
-  background:#585858;
+  /*background:#585858;*/
+  background: #015d79;
 }
 
 #menu ul ul li:hover {
-    background:#808080;
+    background:rgb(88, 88, 88);
   }
 
 #menu ul ul {

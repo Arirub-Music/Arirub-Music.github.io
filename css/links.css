@@ -17,11 +17,8 @@
 #DeezerUP,
 #SoundCUP,
 #YTUP,
-#spotifyUP,
-#ClaroMUP,
-#AmazonMUP,
-#conciertos,
-#Discord {
+#spotifyUP
+ {
     cursor: pointer;
 }
 
@@ -39,10 +36,3 @@
 #spotifyUP h4::after {
     content: "FEBRERO 2K23: ÉXITOS Y ACTUALIDAD 2K23";
 }
-
-/*#ClaroMUP h4::after{
-    content: "Andando De Noche";
-}
-#AmazonMUP h4::after{
-    content: "CLÁSICAS DE BANDA";
-}*/
